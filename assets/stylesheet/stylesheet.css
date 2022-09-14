@@ -1,0 +1,67 @@
+/*  style rules for Header in the body  */
+header {
+    background-image: url("/assets/images/ep_naturalblack.webp");
+    border: 5px solid black;
+}
+
+nav {
+    margin: 0;
+    background-color: darkslategrey;
+}
+
+nav ul {
+    display: flex;
+    flex-flow: nowrap;
+    align-items: center;
+    
+}
+
+header img{
+    width: 10%;
+    height: auto;
+    border-radius: 50%;
+    margin: 0.4% 0 0.4% 1.3%;
+}
+
+#myself {
+    margin: 1% auto 1% 2.1%;
+    background-color: aqua;
+    color: darkslategray;
+    text-decoration-line: none;
+    padding-left: 1%;
+    padding-right: 1%;
+    
+}
+
+nav ul li {
+    margin-right: 2%;
+    padding: 10px 0;
+    text-decoration-line: underline;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul li a {
+    color: aqua;
+}
+
+header section {
+    display: flex;
+    justify-content: space-between;
+}
+
+header section h2 {
+    align-self: flex-end;
+    margin-right: 8%;
+    margin-bottom: 2%;
+    font-size: 36px;
+    color: aqua;
+}
+
+/* ul li a:hover {
+    color: bisque;
+    font-size: 36px;
+    transition-duration: 1.5s;
+} */
+
+
