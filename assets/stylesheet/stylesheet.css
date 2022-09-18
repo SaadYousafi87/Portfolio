@@ -1,8 +1,4 @@
 /*  style rules for Header in the body  */
-header {
-    background-image: url("/assets/images/ep_naturalblack.webp");
-    border: 5px solid black;
-}
 
 nav {
     margin: 0;
@@ -20,7 +16,7 @@ header img{
     width: 10%;
     height: auto;
     border-radius: 50%;
-    margin: 0.4% 0 0.4% 1.3%;
+    margin: 0.4% 0 0.4% 3%;
 }
 
 #myself {
@@ -33,8 +29,12 @@ header img{
     
 }
 
+nav ul {
+    margin: 0 3%;
+}
+
 nav ul li {
-    margin-right: 2%;
+    margin-right: 1%;
     padding: 10px 0;
     text-decoration-line: underline;
     font-size: 24px;
@@ -45,12 +45,14 @@ nav ul li a {
     color: aqua;
 }
 
-header section {
+header {
+    background-image: url(/assets/images/background-image.png);
+    background-size: 100% 100%;
     display: flex;
     justify-content: space-between;
 }
 
-header section h2 {
+header h2 {
     align-self: flex-end;
     margin-right: 8%;
     margin-bottom: 2%;
@@ -63,5 +65,119 @@ header section h2 {
     font-size: 36px;
     transition-duration: 1.5s;
 } */
+
+
+/* Style rules for main section in the body tag */
+main {
+    margin: 2% 6%;
+}
+
+#about-me, #work {
+    display: flex;
+    margin-bottom: 2%;
+}
+
+#about-me h3, #work h3 {
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: right;
+    justify-self: flex-start;
+    padding-right: 1%;
+    color: #445877;
+}
+
+#about-me p, #projects {
+    margin-left: 1%;
+    padding: 1%;
+    font-size: 20px;
+}
+
+.border {
+    border: 1px solid black;
+    background-color: beige;
+}
+
+#projects {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+#project-1 {
+    background-image: url(/assets/images/project-1-img.png);
+    height: 150px;
+    width: 100%;
+    margin-bottom: 1%;
+}
+
+#project-2 {
+    background-image: url(/assets/images/project-2-img.png);
+    height: 150px;
+    width: 49%;
+    margin-right: 2%;
+    margin-bottom: 1%;
+}
+
+#project-3 {
+    background-image:url(/assets/images/project-3-img.png);
+    height: 150px;
+    width: 49%;
+
+}
+
+#project-4 {
+    background-image: url(/assets/images/project-4-img.png);
+    height: 150px;
+    width: 49%;
+    margin-right: 2%;
+}
+
+#project-5 {
+    background-image: url(/assets/images/project-5-img.png);
+    height: 150px;
+    width: 49%;
+}
+
+.bottom-left {
+    color: beige;
+    margin-top: 1%;
+    margin-left: 1%;
+}
+
+/* Style rules for elements in footer tag */
+
+#contact-me {
+    display: flex;
+    margin: 1% 4% 1% 4%;
+}
+
+#contact-me h3 {
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: right;
+    justify-self: flex-start;
+    padding-right: 1%;
+    color: #445877;
+}
+
+#contact-me ul {
+    display: flex;
+    align-items: center;
+    margin-left: 1%;
+    justify-items: center;
+}
+
+#contact-me ul li {
+    padding: 5px 30px;
+    justify-self: center;
+}
+
+#contact-me ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #484e5b;
+    font-weight: bold;
+}
 
 
