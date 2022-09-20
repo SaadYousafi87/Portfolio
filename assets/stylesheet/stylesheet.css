@@ -60,11 +60,7 @@ header h2 {
     color: aqua;
 }
 
-/* ul li a:hover {
-    color: bisque;
-    font-size: 36px;
-    transition-duration: 1.5s;
-} */
+
 
 
 /* Style rules for main section in the body tag */
@@ -102,6 +98,10 @@ main {
     flex-direction: row;
     flex-wrap: wrap;
     width: 100%;
+}
+
+#projects a{
+    text-decoration: none;
 }
 
 #project-1 {
@@ -145,6 +145,31 @@ main {
     margin-left: 1%;
 }
 
+#project-1:hover {
+    height: 160px;
+    border: 2px solid black;
+}
+
+#project-2:hover {
+    height: 160px;
+    border: 2px solid black;
+}
+
+#project-3:hover {
+    height: 160px;
+    border: 2px solid black;
+}
+
+#project-4:hover {
+    height: 160px;
+    border: 2px solid black;
+}
+
+#project-5:hover {
+    height: 160px;
+    border: 2px solid black;
+}
+
 /* Style rules for elements in footer tag */
 
 #contact-me {
@@ -181,7 +206,38 @@ main {
 }
 
 
-/* Style rules for media query */
+/* Style rules for media query for devices with max width of 769 pixels */
 
+@media screen and (max-width: 768px){
+    #about-me {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+    }
 
+    #about-me h3, #work h3, #contact-me h3 {
+        text-align: center;
+    }
+
+    #work, #projects {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #project-1, #project-2, #project-3, #project-4, #project-5 {
+        width: 100%;
+        margin-bottom: 5px;
+    }
+
+    #contact-me {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #contact-me ul{
+        display: flex;
+        flex-direction: column;
+    }
+
+}
 
