@@ -209,6 +209,23 @@ main {
 /* Style rules for media query for devices with max width of 769 pixels */
 
 @media screen and (max-width: 768px){
+    header{
+      order: 1;
+    }
+
+    nav {
+        order: 2;
+    }
+
+    nav ul {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #myself {
+        margin: 0;
+    }
+
     #about-me {
         display: flex;
         width: 100%;
