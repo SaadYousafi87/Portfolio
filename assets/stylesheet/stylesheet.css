@@ -209,6 +209,11 @@ main {
 /* Style rules for media query for devices with max width of 769 pixels */
 
 @media screen and (max-width: 768px){
+
+    #header{
+        display: flex;
+        flex-flow: column;
+    }
     header{
       order: 1;
     }
